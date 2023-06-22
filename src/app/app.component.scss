@@ -1,0 +1,64 @@
+// *{
+//    box-sizing: border-box;
+// } 
+ 
+ nav{
+    background-color:#1d3a72;
+
+ }
+ .title{
+    color:white
+ }
+
+ a{
+    color:white;
+ }
+//  .active{
+//     color:red;
+//  }
+ 
+ .text{
+    color:#2261df;
+   //  font-weight:bold;
+ }
+ .brandicon{
+    width: 20px;
+ }
+input{
+    background-color:#1d3a72;
+}
+ .input-group {
+    width:250px;
+ }
+ .searchbox{
+    border-right: none;
+    border-radius: 0;
+    background-color:#1d3a72;
+ }
+ .search{
+    border-left: none;
+    border-radius: 0;
+    background-color:#1d3a72;
+    color:white;
+ }
+ ::placeholder{
+    color: white;
+}
+
+.dropdown-item{
+    color:black;
+}
+
+.dropdown-menu{
+    background:rgba(255, 255, 255, 0.76) ;
+}
+
+
+//  .fa-stapler{
+//     color:white;
+//     background-color: white;
+
+//  }
+
+
+ 
