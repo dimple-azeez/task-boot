@@ -4,10 +4,20 @@
  
  nav{
     background-color:#1d3a72;
+   //  top:0;
+   //  position: fixed;
+   //  width:100%;
+   //  overflow:hidden;
 
  }
+
+ a.nav-link{
+   color:#d3d3d3;
+ }
  .title{
-    color:white
+    color:white;
+   //  margin-top:5px;
+   padding-top:5px;
  }
 
  a{
@@ -42,7 +52,7 @@ input{
     color:white;
  }
  ::placeholder{
-    color: white;
+    color: #d3d3d3;
 }
 
 .dropdown-item{
