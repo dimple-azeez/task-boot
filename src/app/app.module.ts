@@ -9,6 +9,7 @@ import { TemplateComponent } from './template/template.component';
 import { LicenseComponent } from './license/license.component';
 import { ContactComponent } from './contact/contact.component';
 import { MembersComponent } from './members/members.component';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { MembersComponent } from './members/members.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
